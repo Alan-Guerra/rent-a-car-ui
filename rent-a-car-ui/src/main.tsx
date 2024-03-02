@@ -4,7 +4,7 @@ import App from './App.tsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import { Catalog } from './components/Catalog.tsx'
+import { Catalog } from './routes/Catalog.tsx'
 
 const router = createBrowserRouter([
   {
