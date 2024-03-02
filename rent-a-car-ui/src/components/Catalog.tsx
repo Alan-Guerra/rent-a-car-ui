@@ -1,3 +1,3 @@
 export const Catalog = () => {
-    return <div>CATALOG</div>
+    return <p className="text-red-600">CATALOG</p>
 }
