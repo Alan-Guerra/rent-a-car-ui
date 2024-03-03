@@ -1,4 +1,4 @@
-import logo from "../images/logo.jpg"
+import logo from "../../images/logo.jpg"
 export default function Logo() {
     return <img
         className="flex-1" 
