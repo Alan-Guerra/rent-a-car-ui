@@ -4,9 +4,9 @@ import App from './App.tsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Catalog } from './routes/Catalog.tsx'
-import { Car } from './components/Car.tsx'
-import { Rent } from './components/Rent.tsx'
-import { Settings } from './components/Settings.tsx'
+import { Car } from './routes/Car.tsx'
+import { Rent } from './routes/Rent.tsx'
+import { Settings } from './routes/Settings.tsx'
 
 const router = createBrowserRouter([
   {
